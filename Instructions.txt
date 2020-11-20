@@ -1,0 +1,4 @@
+Open Queens_Visual in VScode or IDE, and launch Live-Server or local HTML File.
+
+For Python Script:
+	- python3 main.py

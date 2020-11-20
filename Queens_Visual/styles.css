@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+.header{
+    text-align: center;
+    padding-top: 3rem;
+}
+.input_area{
+    text-align: center;
+    padding: 30px;
+}
+
+.output{
+    text-align: center;
+    padding-bottom: 3em; 
+}
+
+.container div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+.blackBackground {
+    background-color: black;
+    color: rgb(255, 38, 0);
+  }
+.whiteBackground {
+    background-color: white;
+    color: rgb(255, 38, 0);
+  }
+
+.blackBlank {
+    background-color: #555555;
+  }
+.whiteBlank {
+    background-color: #bbbbbb;
+}
+.frame_rate{
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    left: 50%;
+    transform: translateX(50%);
+    padding: 5px;
+    margin: 2px 0px;
+}
+
+body{
+    color: rgb(180, 66, 66);
+}
+
+p{
+    text-align: center;
+}
+.para{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(50%);
+}

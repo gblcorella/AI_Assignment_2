@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<TITLE>Queens Gambit</TITLE>
+	
+    <base href=".">
+	<link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body ONLOAD="mainInit()">
+    <h1 class="header">Welcome to the Queens Gambit</h1>
+	<div class="input_area">
+	  Number of Queens: 
+	  <input NAME="size" ID="n" VALUE="8" SIZE="3">
+	  <button ONCLICK="onClick()" ID="solveButton">Solve</button>
+	  </div>
+		<div class="output" ID="output" STYLE="font-family:  monospace"></div>
+		
+</div>
+	<div class="para"> <p>Another classic problem studied in Artificial Intelligence, the goal is to place queens on a chess board such 
+		that no pair of queens threaten one another. The standard instance is the 8-queens problem, where you need to 
+		place 8 queens on a standard (8×8) chess board. 
+	</p>
+	<br>
+	<br>
+	<p>** For best visualization, use 22-29. The code works with queen numbers above 30 but it will take longer as 'n' increases. **</p>
+	</div>
+		<div class="frame_rate">
+				&nbsp; <INPUT TYPE="radio" NAME="speed" VALUE="200">Slow
+				&nbsp; <input TYPE="radio" NAME="speed" VALUE="100" CHECKED>Normal
+		</div>
+	
+      <script src="main.js"></script>
+      <script src="worker.js"></script>
+      
+	</body>
+</html>
